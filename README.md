@@ -24,7 +24,7 @@ Backend E-Commerce using SQL, JavaScript, Express, Dotenv, and Sequelize! Intera
 To install neccessary dependencies please use the following command:
 
 ```
-npm i mysql2 sequelize
+npm i mysql2 sequelize dotenv
 ```
 *use node to run server*
 
