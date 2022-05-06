@@ -18,7 +18,7 @@ router.get('/:id', async (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
   try {
-    const CategoryData = await Category.findbyPk(req.params.id, {include: [{ model: Product }]});
+    const CategoryData = await Category.findOne({where: {id:req.params.id}, include: [{ model: Product }]});
     res.status(200).json(CategoryData);
   } catch (err) {
     res.status(500).json(err);
