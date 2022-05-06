@@ -44,7 +44,7 @@ router.put('/:id', async (req, res) => {
     });
 
     if (!ProductData) {
-      res.status(404).json({ message: 'No library card found with that id!' });
+      res.status(404).json({ message: 'No Category found with that id!' });
       return;
     }
 
@@ -63,7 +63,7 @@ router.delete('/:id', async (req, res) => {
     });
 
     if (!ProductData) {
-      res.status(404).json({ message: 'No library card found with that id!' });
+      res.status(404).json({ message: 'No Category found with that id!' });
       return;
     }
 
