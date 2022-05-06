@@ -25,12 +25,13 @@ To install neccessary dependencies please use the following command:
 
 ```
 npm i mysql2 sequelize
-npm run seed
 ```
-
+*use node to run server*
 
 ## Usage
-VIDEO LINK HERE
+https://user-images.githubusercontent.com/98627133/167067804-9d4dffdd-3ceb-4812-bcfc-f6f5ea3e73a2.mp4
+
+
 
 
 ## License
